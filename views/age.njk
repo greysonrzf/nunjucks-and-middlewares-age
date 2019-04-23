@@ -1,0 +1,30 @@
+<head>
+  <style>
+    body {
+      background: #f1f1f1;
+    }
+    .container {
+      max-width: 480px;
+      height: 150px;
+      background: white;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      padding: 5px 15px 5px 15px;
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px #888;
+    }
+    h1 {
+      font-family: sans serif;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Idade:</h1>
+    <form action="/check" method="POST">
+      <input name="age" />
+      <button type="submit">Checar</button>
+    </form>
+  </div>
+</body>
